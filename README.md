@@ -90,8 +90,8 @@ corepack enable
 pnpm install
 pnpm dev      # runs the demo against the local @open-slide/core
 pnpm build    # builds all packages
-pnpm check    # type-checks all packages
-pnpm lint     # lints via biome
+pnpm check    # format:check + lint + typecheck
+pnpm lint     # oxlint (JS/TS) + biome (CSS/JSON)
 ```
 
 ## Star history
